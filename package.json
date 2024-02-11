@@ -12,6 +12,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "license": "MIT",
   "repository": {"type": "git", "url": "https://github.com/Hatzilu/vscode-mineimator-support"},
   "contributes": {
     "languages": [{
