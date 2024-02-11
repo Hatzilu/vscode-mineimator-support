@@ -1,0 +1,37 @@
+{
+    "name": "mineimator-files-extension",
+    "displayName": "Mine-Imator file extension",
+    "description": "enables JSON syntax highlighting in VSCode for JSON-like mineimator files.",
+    "version": "0.0.1",
+    "publisher": "Hatzilu",
+    "engines": {
+      "vscode": "^1.1.37"
+    },
+    "categories": [
+      "Other"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "midata",
+          "aliases": ["midata"],
+          "extensions": [".midata"],
+          "configuration": "./src/language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "json",
+          "scopeName": "source.json",
+          "path": "./syntaxes/json.tmLanguage.json"
+        }
+      ]
+    },
+    "activationEvents": [
+      "onLanguage:midata"
+    ],
+    "devDependencies": {
+      "vscode": "^1.1.37"
+    }
+  }
+  
