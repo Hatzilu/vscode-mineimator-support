@@ -1,0 +1,25 @@
+{
+  "name": "mine-imator-file-highlighting",
+  "displayName": "Mine-imator file highlighting",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "midata",
+      "aliases": ["Mine-Imator data file", "midata"],
+      "extensions": [".midata"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "midata",
+      "scopeName": "source.midata",
+      "path": "./syntaxes/midata.tmLanguage.json"
+    }]
+  }
+}
