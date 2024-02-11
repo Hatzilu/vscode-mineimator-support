@@ -1,6 +1,6 @@
 {
-  "name": "mine-imator-file-highlighting",
-  "displayName": "Mine-imator file highlighting",
+  "name": "vscode-mineimator-support",
+  "displayName": "Mine-imator file support",
   "contributors": [
     {"name":"Hatzilu","url":"https://github.com/Hatzilu"}
   ],
@@ -12,6 +12,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {"type": "git", "url": "https://github.com/Hatzilu/vscode-mineimator-support"},
   "contributes": {
     "languages": [{
       "id": "midata",
