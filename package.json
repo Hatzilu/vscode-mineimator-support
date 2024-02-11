@@ -1,6 +1,9 @@
 {
   "name": "mine-imator-file-highlighting",
   "displayName": "Mine-imator file highlighting",
+  "contributors": [
+    {"name":"Hatzilu","url":"https://github.com/Hatzilu"}
+  ],
   "description": "",
   "version": "0.0.1",
   "engines": {
